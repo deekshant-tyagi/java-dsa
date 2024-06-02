@@ -1,4 +1,13 @@
 <!-- OOPS CONCENT OF JAVA -->
+
+1.INTERFACE
+2.ABSTRACT
+3.METHOD OVERLOADING
+4.METHOD OVERRIDING
+5.POLYMORPHISM(NothiNg but the implementation of Method Overloading OR Method Overriding)
+6.ENCAPSULATION
+
+
 <!-- INTERFACE in JAVA -->
 interface Car{
     public void start();
