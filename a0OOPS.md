@@ -17,7 +17,7 @@ view RAW file :)
 13.User Defined Exception
 
 
-<!-- INTERFACE in JAVA -->
+1.<!-- INTERFACE in JAVA -->
 interface Car{
     public void start();
 }
@@ -41,7 +41,7 @@ class dieselCar implements Car{
         }
 }
 
-<!-- ABSTRACT in JAVA -->
+2.<!-- ABSTRACT in JAVA -->
 abstract class car{
     // like a user view.
     abstract void fuelType();
@@ -60,7 +60,7 @@ public class demo {
     }
 }
 
-<!-- METHOD(Function) OVERRIDING -->
+3.<!-- METHOD(Function) OVERRIDING -->
 class Bank{
     void rateOfInteres(){
         System.out.println("Rate of Interest of Bank is 5%");
@@ -107,7 +107,7 @@ public class demo {
 }
 // if we want to prevent method overriding then we can use the final keyword on function. After using final keyword we can't make two function of same name.
 
-<!-- METHOD(Function) OVERLOADING -->
+4.<!-- METHOD(Function) OVERLOADING -->
 class overloadingDemo{
     void sum(int a, int b){
         System.out.println(a+b);
@@ -128,7 +128,10 @@ public class demo {
     }    
 }
 
-<!-- ENCAPSULATION in JAVA -->
+5.POLYMORPHISM(NothiNg but the implementation of Method Overloading OR Method Overriding).
+// Check above codes.
+
+6.<!-- ENCAPSULATION in JAVA -->
 class person{
     private String name;
     private int age;
@@ -158,7 +161,7 @@ public class demo {
 }
 
 
-<!--  try and catch in JAVA-->
+7.<!--  try and catch in JAVA-->
 // try block must be followed by catch or finally block.
 import java.util.*;
 public class demo {
@@ -177,7 +180,7 @@ public class demo {
 //O/P
 //10/0 gives us exception -> java.lang.ArithmeticException: / by zero
 
-<!--  MultiCatch Blocks in JAVA-->
+8.<!--  MultiCatch Blocks in JAVA-->
 public class demo {
     public static void main(String[] args) {
         int arr[] = new int[5];
@@ -198,7 +201,7 @@ public class demo {
         System.out.println(e);
     }
 
-<!-- Nested TryCatch -->
+9.<!-- Nested TryCatch -->
 public class demo {
     public static void main(String[] args) {
         int arr[] = new int[5];
@@ -222,7 +225,7 @@ public class demo {
 // Index 6 out of bounds for length 5
 
 
-<!-- TryCatchFinally -->
+10.<!-- TryCatchFinally -->
 <!--Finally Block will always execute. -->
 public class demo {
 public static void main(String[] args) {
@@ -241,7 +244,7 @@ public static void main(String[] args) {
 // Inside Finally Block
 
 
-<!-- Throw in JAVA -->
+11.<!-- Throw in JAVA -->
 <!-- Throw is used to throw the exception explicitly. -->
 import java.util.Scanner;
 public class demo {
@@ -258,7 +261,7 @@ public class demo {
 // O/P
 //Exception in thread "main" java.lang.RuntimeException: You Can't Vote at demo.main(demo.java:10)
 
-<!-- Throws in Java -->
+12.<!-- Throws in Java -->
 <!-- Throws doesn't throw an exception but is used to declare exception , it indicates that an exception might occur in program or method. -->
 public class demo {
     static void divisionDemo(int dividend, int divisor) throws ArithmeticException{
@@ -269,7 +272,7 @@ public class demo {
     }
 }
 
-<!-- User Defined Exception -->
+13.<!-- User Defined Exception -->
 //super()=> produces specified detail message.
 class limitExceedException extends Exception{
     limitExceedException(String msg){
